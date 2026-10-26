@@ -1,0 +1,25 @@
+﻿BOM TEMPERO — COMO ABRIR O SITE
+
+Abra index.html no navegador. O site funciona localmente, sem instalação.
+
+IMAGENS NA PASTA img
+As quatro fotos que você enviou já estão ligadas ao site:
+- fachada.png: quarta imagem enviada, na abertura da página.
+- salao.png: primeira imagem, destaque da seção Nosso espaço.
+- salao-2.png: segunda imagem, na galeria do salão.
+- atendimento.png: terceira imagem, na galeria de atendimento.
+
+Os arquivos com os nomes originais foram preservados na pasta img.
+As fotos dos pratos e a logo continuam provisórias:
+classicos.png, leve.png, compartilhar.png e logo.png.
+
+Para substituir fotos, mantenha os nomes e a extensão dos arquivos utilizados.
+Depois, atualize o navegador com Ctrl + F5.
+
+ARQUIVOS
+index.html — textos e estrutura
+styles.css — visual e adaptação para celular
+script.js — menu e cardápio interativo
+img — imagens
+
+Esta pasta é uma cópia local independente. Alterações aqui não atualizam o link publicado automaticamente.

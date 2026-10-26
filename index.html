@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f8f2e8">
+    <meta name="description"
+        content="Conheça o Bom Tempero: comida caseira, um ambiente acolhedor e uma mesa para todos os gostos. Projeto acadêmico de reformulação.">
+    <title>Bom Tempero — Comida boa. Tempero de casa.</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="header">
+        <div class="container header-inner">
+            <a class="brand" href="#inicio" aria-label="Bom Tempero — início"><img src="img/logo.png" width="72"
+                    height="72" alt=""><span>BOM TEMPERO<small>COMIDA QUE ACOLHE</small></span></a>
+            <button class="menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false"
+                aria-controls="navigation"><span></span><span></span><span></span></button>
+            <nav id="navigation" aria-label="Navegação principal"><a href="#inicio">Início</a><a
+                    href="#cardapio">Cardápio</a><a href="#espaco">Nosso espaço</a><a href="#sobre">Sobre nós</a><a
+                    class="button button-small" href="#cardapio">Conheça o cardápio <span
+                        aria-hidden="true">↗</span></a></nav>
+        </div>
+    </header>
+    <main id="conteudo">
+        <section class="hero container" id="inicio" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span aria-hidden="true">✳</span> SABOR QUE ACOLHE</p>
+                <h1 id="hero-title">Comida boa.<br>Tempero de <em>casa.</em></h1>
+                <p class="hero-description">Uma mesa para todos os gostos.<br>Conheça o novo Bom Tempero.</p><a
+                    class="button" href="#cardapio">Ver cardápio <span aria-hidden="true">↗</span></a>
+                <div class="hero-note"><span class="line"></span> Feito com carinho, do nosso jeito.</div>
+            </div>
+            <div class="hero-image"><img src="img/fachada.png" width="1536" height="1024" fetchpriority="high"
+                    alt="Fachada do Bom Tempero, com letreiro iluminado e entrada para o restaurante">
+                <div class="photo-label"><span aria-hidden="true">✳</span> Sinta-se em casa.</div>
+            </div>
+        </section>
+        <div class="values-strip">
+            <div class="container"><span>Feito com carinho</span><span aria-hidden="true">✳</span><span>Servido com
+                    sabor</span><span aria-hidden="true">✳</span><span>Para todos os gostos</span></div>
+        </div>
+        <section class="menu-section container section" id="cardapio" aria-labelledby="menu-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">DA NOSSA COZINHA PARA A SUA MESA</p>
+                    <h2 id="menu-title">Um tempero para<br>cada vontade.</h2>
+                </div>
+                <p>Dos clássicos do dia a dia às porções para dividir.<br>Escolha o que combina com a sua fome.</p>
+            </div>
+            <div class="food-grid">
+                <button class="food-card" type="button" data-category="classicos" aria-haspopup="dialog">
+                    <div class="food-image"><img src="img/classicos.png" width="1536" height="1024" loading="lazy"
+                            alt="Prato de arroz, feijão, bife acebolado e batatas fritas"><span class="image-tag">TEM
+                            GOSTINHO DE CASA</span></div>
+                    <div class="food-info">
+                        <div>
+                            <h3>Clássicos da casa</h3>
+                            <p>Os sabores que sempre fazem sucesso.</p>
+                        </div><span class="circle-arrow" aria-hidden="true">↗</span>
+                    </div>
+                </button>
+                <button class="food-card" type="button" data-category="leve" aria-haspopup="dialog">
+                    <div class="food-image"><img src="img/leve.png" width="1536" height="1024" loading="lazy"
+                            alt="Salada fresca com frango grelhado, folhas e legumes"><span class="image-tag">LEVE NO
+                            PRATO, CHEIO DE SABOR</span></div>
+                    <div class="food-info">
+                        <div>
+                            <h3>Leve e fresquinho</h3>
+                            <p>Boas escolhas para o seu dia.</p>
+                        </div><span class="circle-arrow" aria-hidden="true">↗</span>
+                    </div>
+                </button>
+                <button class="food-card" type="button" data-category="compartilhar" aria-haspopup="dialog">
+                    <div class="food-image"><img src="img/compartilhar.png" width="1536" height="1024" loading="lazy"
+                            alt="Porção de coxinhas e bolinhos dourados com molhos"><span class="image-tag">BOM MESMO É
+                            DIVIDIR</span></div>
+                    <div class="food-info">
+                        <div>
+                            <h3>Para compartilhar</h3>
+                            <p>Petiscos que deixam tudo mais gostoso.</p>
+                        </div><span class="circle-arrow" aria-hidden="true">↗</span>
+                    </div>
+                </button>
+            </div>
+            <p class="menu-disclaimer">Uma amostra dos sabores pensados para o nosso novo cardápio.</p>
+        </section>
+        <section class="space-section" id="espaco" aria-labelledby="space-title">
+            <div class="container space-grid">
+                <div class="space-image"><img src="img/salao.png" width="1536" height="1024" loading="lazy"
+                        alt="Salão do Bom Tempero com buffet central, mesas de madeira e iluminação acolhedora">
+                    <div class="space-stamp">Puxe uma cadeira.<br><em>A casa é sua.</em></div>
+                </div>
+                <div class="space-copy">
+                    <p class="eyebrow">UM LUGAR PARA FICAR À VONTADE</p>
+                    <h2 id="space-title">Sinta-se<br>em casa.</h2>
+                    <p>Uma pausa no dia. Um almoço em família. Aquela conversa que fica melhor ao redor da mesa.</p>
+                    <p>O Bom Tempero nasce com essa ideia: juntar boa comida, um ambiente acolhedor e o prazer de estar
+                        junto.</p><a class="text-link" href="#sobre">Conheça nossa proposta <span
+                            aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+                    <div class="container space-gallery" aria-label="Mais imagens do nosso espaço">
+                <figure>
+                    <img src="img/salao-2.png" width="1448" height="1086" loading="lazy" alt="Outro ângulo do salão do Bom Tempero, com buffet e mesas ocupadas">
+                    <figcaption>Um espaço para bons encontros.</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/atendimento.png" width="1448" height="1086" loading="lazy" alt="Atendente do Bom Tempero recebendo o pedido de clientes à mesa">
+                    <figcaption>Carinho em cada atendimento.</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="about-section section container" id="sobre" aria-labelledby="about-title">
+            <div class="about-mark"><img src="img/logo.png" width="180" height="180" alt="Símbolo do Bom Tempero">
+                <p>UMA NOVA FASE.<br>O MESMO CARINHO À MESA.</p>
+            </div>
+            <div class="about-copy">
+                <p class="eyebrow">BOM TEMPERO, NOVOS SABORES</p>
+                <h2 id="about-title">Mais possibilidades.<br>Mais motivos para sentar à mesa.</h2>
+                <p>Uma cozinha de portas abertas para diferentes gostos. Nossa proposta reúne pratos caseiros, opções
+                    leves e porções para compartilhar em um cardápio simples e cheio de sabor.</p>
+                <p>Porque uma boa refeição tem a ver com o que vai no prato — e com o jeito como a gente se sente.</p>
+            </div>
+        </section>
+        <section class="closing">
+            <div class="container"><span aria-hidden="true">✳</span>
+                <h2>Seu próximo momento gostoso<br>começa à mesa.</h2><a class="button button-light"
+                    href="#cardapio">Encontre seu favorito <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-main"><a class="brand" href="#inicio"><img src="img/logo.png" width="56"
+                    height="56" alt=""><span>BOM TEMPERO<small>COMIDA QUE ACOLHE</small></span></a><a class="text-link"
+                href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a></div>
+        <div class="container footer-note">
+            <p>Projeto acadêmico de reformulação do restaurante Mamma Julia.</p>
+            <p>Conceito ilustrativo · Imagens geradas por IA · Sem pedidos ou reservas reais.</p>
+        </div>
+    </footer>
+    <dialog id="menu-dialog" aria-labelledby="dialog-title">
+        <div class="dialog-top">
+            <p class="eyebrow">UM POUQUINHO DO NOSSO CARDÁPIO</p><button type="button" class="dialog-close"
+                aria-label="Fechar cardápio">×</button>
+        </div><img id="dialog-image" src="img/classicos.png" alt="" width="900" height="500">
+        <div class="dialog-content">
+            <h2 id="dialog-title">Clássicos da casa</h2>
+            <p id="dialog-description"></p>
+            <ul id="dialog-dishes"></ul>
+            <p class="dialog-note">Sugestões ilustrativas para o projeto acadêmico. Cardápio e preços ainda não
+                definidos.</p><button type="button" class="button dialog-done">Continuar explorando <span
+                    aria-hidden="true">↗</span></button>
+        </div>
+    </dialog>
+</body>
+
+</html>
